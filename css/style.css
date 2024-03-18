@@ -1,0 +1,169 @@
+/** @format */
+
+* {
+     box-sizing: border-box;
+}
+html,
+body {
+     width: 100vw;
+     height: 100vh;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 0 0px;
+}
+
+/* for invisible  scrollbar start */
+body::-webkit-scrollbar {
+     display: none;
+}
+/* for invisible  scrollbar end */
+.container {
+     width: 80%;
+     margin: 0 auto;
+}
+h1 {
+     font-size: 36px;
+     color: #000;
+     font-weight: 600;
+}
+h3 {
+     font-size: 24px;
+     color: #000;
+     font-weight: 500;
+}
+p {
+     color: #000;
+     font-size: 16px;
+     line-height: 1.4rem;
+     margin-top: 20px;
+     padding-bottom: 10px;
+}
+b {
+     padding-top: 5px;
+     font-size: 18px;
+     font-weight: 600;
+     color: #bf1b1b;
+}
+a {
+     color: #000;
+}
+
+/* Navbar */
+nav {
+     /* ------------- */
+     position: sticky; /* position sticky code */
+     top: 0;
+     /* ----------------- */
+     background-color: #ffffff;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     box-shadow: rgb(173 173 173) 13px 8px 13px 12px;
+}
+.nav-container {
+     display: flex;
+     align-items: center;
+     padding: 20px 0;
+}
+.logo {
+     display: flex;
+     width: 135px;
+}
+.brand-logo {
+     width: 50%;
+}
+.brand-logo img {
+     width: 100%;
+     height: auto;
+}
+.brand-logo-name h1 {
+     font-size: 1.2rem;
+     margin-left: 5px;
+}
+.nav-items {
+     margin-left: auto;
+}
+
+.nav-items ul {
+     display: flex;
+}
+.nav-items li {
+     margin-left: 3px;
+     padding: 5px 9px;
+}
+.nav-items li.active:hover {
+     border-bottom: 5px solid #0066f9;
+     transition: 100ms;
+}
+.nav-items ul a {
+     text-decoration: none;
+     padding: 5px;
+}
+
+.btn a {
+     border-radius: 5px;
+     background-color: #021a3b;
+     color: #ffffff;
+     font-size: medium;
+}
+
+/* main section :start */
+
+.main-contain {
+     /* _______ */
+     margin: 0 auto; /* div center process */
+     /* -------- */
+     width: 840px;
+     height: auto;
+     padding: 30px 0;
+}
+.main-contain h1 {
+     padding: 30px 0;
+}
+
+/* main section :end */
+
+/* footer :start */
+
+.footer-container {
+     background-color: rgb(255, 255, 255);
+     width: 100%;
+     display: flex;
+     height: 150px;
+     border-radius: 70px 70px 0px 0px;
+     margin: 0 auto;
+     border: 3px solid #373333;
+}
+.icons {
+     margin: 50px 0px 0px 80px;
+
+     height: 50px;
+     width: 50px;
+}
+
+.icons span a {
+     margin-right: 15px;
+     background-color: #0066f9;
+}
+.icons a .fa-x-twitter {
+     font-size: 25px;
+
+     color: #0f1419;
+     padding: 10px;
+}
+.icons a .fa-telegram {
+     font-size: 25px;
+     color: #3390ec;
+     padding: 10px;
+}
+.footer-container p {
+     justify-items: center;
+     padding: 50px;
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4rem;
+}
+
+/* footer :end */
+
+/* tradingview-widget-container start*/
+
+/* tradingview-widget-container end */

@@ -1,0 +1,155 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0" />
+          <title>Candlestick Charts.page</title>
+          <link
+               href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+               rel="stylesheet" />
+          <link rel="script" href="../javascript/script.js" />
+
+          <link rel="stylesheet" href="../css/reset.css" />
+          <link rel="stylesheet" href="../css/style.css" />
+          <link
+               rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+     </head>
+     <body>
+          <!-- navbar start -->
+
+          <nav>
+               <div class="container nav-container">
+                    <div class="logo">
+                         <div class="brand-logo">
+                              <a href="index.html">
+                                   <img
+                                        src="../img/logo.svg"
+                                        alt="brand logo" />
+                              </a>
+                         </div>
+                         <div class="brand-logo-name">
+                              <h1>Investing Hub</h1>
+                         </div>
+                    </div>
+                    <div class="nav-items">
+                         <ul>
+                              <li class="active">
+                                   <a href="./index.html">Home</a>
+                              </li>
+                              <li class="active">
+                                   <a href="../html/News.html" target="_blank"
+                                        >News</a
+                                   >
+                              </li>
+                              <li class="active">
+                                   <a
+                                        href="../html/Analysis.html"
+                                        target="_blank"
+                                        >analysis</a
+                                   >
+                              </li>
+                              <li class="active">
+                                   <a href="./Tools.html" target="_blank"
+                                        >Charts</a
+                                   >
+                              </li>
+                              <li class="btn">
+                                   <a href="#">dark</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+          <!-- navbar end -->
+
+          <!-- main contain start -->
+
+          <main class="main-contain">
+               <h1>Live Charts</h1>
+               <p>
+                    Trading is a journey that requires dedication, discipline,
+                    and continuous learning. By mastering the core concepts
+                    outlined in this guide and applying them with diligence and
+                    patience, aspiring traders can navigate the markets with
+                    confidence and embark on a path toward trading success.
+               </p>
+
+               <!-- TradingView Widget BEGIN -->
+               <!-- TradingView Widget BEGIN -->
+               <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright">
+                         <a
+                              href="https://www.tradingview.com/"
+                              rel="noopener nofollow"
+                              target="_blank"
+                              ><span class="blue-text"
+                                   >Track all markets on TradingView</span
+                              ></a
+                         >
+                    </div>
+                    <script
+                         type="text/javascript"
+                         src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+                         async>
+                           {
+                           "width": "840",
+                           "height": "720",
+                           "symbol": "BINANCE:BTCUSDT",
+                           "interval": "240",
+                           "timezone": "America/New_York",
+                           "theme": "dark",
+                           "style": "1",
+                           "locale": "en",
+                           "enable_publishing": false,
+                           "backgroundColor": "rgba(0, 0, 0, 1)",
+                           "allow_symbol_change": true,
+                           "calendar": false,
+                           "support_host": "https://www.tradingview.com"
+                         }
+                    </script>
+               </div>
+               <!-- TradingView Widget END -->
+               <!-- TradingView Widget END -->
+          </main>
+          <!-- main contain end -->
+
+          <!-- footer section start -->
+          <footer class="footer-container">
+               <div class="icons">
+                    <a
+                         target="_blank"
+                         href="https://twitter.com/home?lang=en"
+                         class="twitter">
+                         <span> <i class="fa-brands fa-x-twitter"></i></span>
+                    </a>
+                    <a
+                         target="_blank"
+                         href="https://t.me/Future_tradingI"
+                         class="telegram">
+                         <span> <i class="fa-brands fa-telegram"></i></span>
+                    </a>
+               </div>
+               <p>
+                    Trading is a long-term game here is more information for
+                    trading.
+                    <a href="https://t.me/Future_tradingI"
+                         >See more information here.</a
+                    >
+               </p>
+               <p>
+                    Maintained by
+                    <a href="https://github.com/sks006">.website</a> You can
+                    always contribute with the project on
+                    <a href="https://github.com/sks006">Github</a>.
+               </p>
+          </footer>
+          <!-- footer section end -->
+          <script src="../javascript/script.js"></script>
+     </body>
+</html>
