@@ -167,3 +167,93 @@ nav {
 /* tradingview-widget-container start*/
 
 /* tradingview-widget-container end */
+
+/* --------------- Form container start --------------- */
+.gender-lable {
+     margin: 1rem 0px;
+}
+.form-container {
+     height: 420px;
+     width: 820px;
+     margin: 0 auto;
+}
+.form_section {
+     width: 100%;
+     padding: 1rem 2rem;
+}
+
+/* from section stop */
+
+/* inline form start */
+
+.inline_form {
+     display: flex;
+     margin-top: 1rem;
+     gap: 2rem;
+     align-items: center;
+     justify-content: space-between;
+}
+
+/* inline form stop */
+
+/* form group :start */
+
+.form_group {
+     width: 100%;
+     margin-bottom: 2rem;
+}
+
+.form_group label {
+     display: block;
+     font-size: 18px;
+     color: #333;
+}
+.form_group input[type="text"],
+.form_group input[type="email"],
+.form_group input[type="tel"],
+.form_group input[type="password"],
+.form_group select,
+.form_group textarea {
+     width: 100%;
+     padding: 0.5rem;
+     outline: none;
+     border: 1px solid #ddd;
+     margin-top: 0.5rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+/* form group :stop */
+.inline_radio_group {
+     display: flex;
+}
+.radio_inline {
+     display: flex;
+     gap: 0.5rem;
+     align-items: center;
+     margin-top: 0.5rem;
+     margin-right: 2rem;
+}
+
+.bio {
+     height: 120px;
+     resize: none;
+}
+.btn {
+     padding: 0.5rem 1rem;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     font-size: 0.9rem;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+.btn:hover {
+     cursor: pointer;
+}
+
+.btn-group-submit {
+     background-color: #000;
+     color: #fff;
+     border: 2px solid #000;
+     border-radius: 0.25rem;
+}
+/* --------------- Form container end --------------- */
