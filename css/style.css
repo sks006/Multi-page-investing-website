@@ -208,8 +208,13 @@ nav {
      border: 3px solid #373333;
      padding: 20px;
 }
+.fa-brands,
+.fab {
+     font-weight: 400;
+     font-size: 42px;
+}
 
-.icons {
+.f .icons {
      margin: 20px auto; /* Center icons in the footer */
 }
 
@@ -307,7 +312,7 @@ nav {
      }
 
      .footer-container {
-          height: 250px; /* Adjusted height for large devices */
+          height: auto; /* Adjusted height for large devices */
      }
 }
 
